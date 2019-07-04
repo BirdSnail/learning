@@ -32,7 +32,7 @@ public class SlideOutTest {
                 .sum(1)
                 .print();
 
-        // 使用侧输出
+        // 获取侧输出的元素
         tokened.getSideOutput(rejectedWordsTag)
                 .map(new RejectElementMapFunction())
                 .writeAsText("C:\\Users\\31472\\Desktop\\rejected");
