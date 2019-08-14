@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  * 一个list的累加器，存放每个位置对应的空字段数量
  * <p>
- * arraylist= {0,1,0}.代表第二个index位置的空字段元素个数为1，其余位置为0.
+ *  arraylist= {0,1,0}.代表第二个index位置的空字段元素个数为1，其余位置为0.
  * <p/>
  *
  * @author: Mr.Yang

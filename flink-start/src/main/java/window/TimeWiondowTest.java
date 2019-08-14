@@ -5,7 +5,11 @@ import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
+import org.apache.flink.streaming.api.functions.source.RichParallelSourceFunction;
+import org.apache.flink.streaming.api.functions.source.SourceFunction;
 import org.apache.flink.streaming.api.windowing.time.Time;
+
+import java.util.Random;
 
 /**
  * @author: Mr.Yang
@@ -15,12 +19,12 @@ public class TimeWiondowTest {
 
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        DataStreamSource<String> streamSource = env.socketTextStream("bear", 10086);
-
+        // DataStreamSource<String> streamSource = env.socketTextStream("bear", 10086);
+        DataStreamSource<String> streamSource = env.addSource(new DataSource());
         streamSource.map(new Tuple2MapFunction())
                 .keyBy(0)
-                // keyby分区过后是每个key里面元素的数量到达2个就触发运算
                 .timeWindow(Time.seconds(10L),Time.seconds(2L))
+//                .timeWindow(Time.seconds(5L))
                 .reduce(new ReduceFunction<Tuple2<String, Long>>() {
                     @Override
                     public Tuple2<String, Long> reduce(Tuple2<String, Long> t1, Tuple2<String, Long> t2) throws Exception {
@@ -32,7 +36,7 @@ public class TimeWiondowTest {
     }
 
     // *****************************************************************************************************************
-    //                            UTIL CLASS
+    // UTIL CLASS
     // *****************************************************************************************************************
 
     private static class Tuple2MapFunction implements MapFunction<String, Tuple2<String, Long>> {
@@ -41,5 +45,32 @@ public class TimeWiondowTest {
         public Tuple2<String, Long> map(String word) throws Exception {
             return Tuple2.of(word, 1L);
         }
+    }
+
+    private static  class DataSource extends RichParallelSourceFunction<String>{
+
+        private volatile boolean running = true;
+        private Random random = new Random();
+        long count = 0;
+
+        @Override
+        public void run(SourceContext<String> ctx) throws Exception {
+            while (running && count < 100){
+                ctx.collect(getRandomChar());
+                count++;
+                Thread.sleep(2000L);
+            }
+        }
+
+        @Override
+        public void cancel() {
+            running = false;
+        }
+    }
+
+    private static String getRandomChar() {
+        String str = String.valueOf((char) ('a' + new Random().nextInt(5)));
+        System.out.println(str);
+        return str;
     }
 }

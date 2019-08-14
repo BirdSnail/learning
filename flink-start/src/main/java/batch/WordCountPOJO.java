@@ -16,6 +16,8 @@ import window.CountWindowTest2;
 public class WordCountPOJO {
 	public static void main(String[] args) throws Exception {
 		final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+		env.getConfig().disableForceKryo();
+		env.registerType(Word.class);
 
 		DataSource<String> text = env.fromElements(CountWindowTest2.WordCountData.WORDS);
 		text.flatMap(new Tokenizer())
@@ -26,8 +28,6 @@ public class WordCountPOJO {
 						return new Word(value1.getWord(), value1.getFrequency() + value2.getFrequency());
 					}
 				}).print();
-
-		env.execute();
 	}
 
 	/**
