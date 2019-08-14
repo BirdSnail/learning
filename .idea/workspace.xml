@@ -1,186 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e305d054-183c-4c9b-b079-3b9599d4d078" name="Default" comment="使用flink-jdbc模块，读取file写到mysql">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_4_20.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_4_20.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_4_20.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_4_20.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_jdbc_2_11_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_2_11_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_5_0_4_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_7_9_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_24_Final_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_2_11_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_7_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_unknown.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/flink-start.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/batch/CollectionExecutionExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/graph/TranstivePath.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/graph/util/TranstivePathData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/test/BroadcastTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/SlidingEventTimeWindowsTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/TopSpeedWindow.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/function/RejectElementMapFunction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/function/Tokenizer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/util/SessionWindowingData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/util/SplitWordsFunction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/src/test/java/graph/test/EnumTrianglesDataTypesTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/JDBC/MysqlReaderOfFlink.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/JDBC/ReadeFile2Mysql$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/JDBC/ReadeFile2Mysql$GenerateRow.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/JDBC/ReadeFile2Mysql.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/JDBC/util/JDBCInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/accumulator/EmptyFieldFilterFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/accumulator/EmptyFieldsAccumulator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/accumulator/ListAccumulator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/CollectionExecutionExample$EMail.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/CollectionExecutionExample$User.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/CollectionExecutionExample.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/Pi$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/Pi$Sample.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/Pi$SumReducer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/Pi.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/WordCountPOJO$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/WordCountPOJO$Tokenizer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/WordCountPOJO$Word.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/batch/WordCountPOJO.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/clustering/KMeans$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/clustering/KMeans$CentroidAccumulator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/clustering/KMeans$CentroidAverager.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/clustering/KMeans$SelectNearestCenter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/clustering/KMeans.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/clustering/util/KMeansData$Centroid.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/clustering/util/KMeansData$Point.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/clustering/util/KMeansData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/EnumTriangles$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/EnumTriangles$FlipEdgeMapFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/EnumTriangles$TriadBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/EnumTriangles$TriadeFilter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/EnumTriangles.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/LinkedPageCount$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/LinkedPageCount$BuildOutgoingEdgeArray.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/LinkedPageCount$PageTokenizer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/LinkedPageCount.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/PageRank$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/PageRank$BuildOutgoingPageId.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/PageRank$DampingRank.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/PageRank$EpsilonFilter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/PageRank$JoinVertexWithEdge.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/PageRank.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/TranstivePath$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/TranstivePath$BuildNewPath.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/TranstivePath$DistinctPath.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/TranstivePath$TerminationOfIteration.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/TranstivePath.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/util/EnumTrianglesData$Edge.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/util/EnumTrianglesData$Triade.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/util/EnumTrianglesData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/util/PageRankData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/graph/util/TranstivePathData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/iterator/IteratorExample$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/iterator/IteratorExample$FibonacciMapFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/iterator/IteratorExample$FibonacciOverSelector.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/iterator/IteratorExample$RandomFibonacciSource.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/iterator/IteratorExample$Step.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/iterator/IteratorExample.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/test/BroadcastTest$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/test/BroadcastTest$ContactTwoData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/test/BroadcastTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/watermark/MyTimestampsAndWatermarks.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/CountWindowTest1$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/CountWindowTest1$Tuple2MapFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/CountWindowTest1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/CountWindowTest2$Tuple2MapFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/CountWindowTest2$WordCountData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/CountWindowTest2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/SlideOutTest$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/SlideOutTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/SlidingEventTimeWindowsTest$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/SlidingEventTimeWindowsTest$Tuple2MapFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/SlidingEventTimeWindowsTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/Test.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TimeWiondowTest$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TimeWiondowTest$DataSource.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TimeWiondowTest$Tuple2MapFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TimeWiondowTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TopSpeedWindow$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TopSpeedWindow$CarSource.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TopSpeedWindow$CarTimestamp.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TopSpeedWindow.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TumblingEventTimeWindowsTest$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TumblingEventTimeWindowsTest$Tuple2MapFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/TumblingEventTimeWindowsTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/function/RejectElementMapFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/function/Tokenizer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/util/SessionWindowingData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/util/SplitWordsFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/classes/window/util/TopSpeedWindowingExampleData.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flink-start/target/test-classes/graph/test/EnumTrianglesDataTypesTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learning-log/learning-log.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learningjava/target/classes/yanghuadong/LinkListTest$Node.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learningjava/target/classes/yanghuadong/LinkListTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learningjava/target/classes/yanghuadong/SortTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learningjava/target/classes/yanghuadong/StringParseToInteger.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learningjava/target/test-classes/yanghuadong/LinkListTestTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/learningjava/target/test-classes/yanghuadong/StringParseToIntegerTest.class" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/flink-start/pom.xml" afterPath="$PROJECT_DIR$/flink-start/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/flink-start/src/main/java/accumulator/ListAccumulator.java" afterPath="$PROJECT_DIR$/flink-start/src/main/java/accumulator/ListAccumulator.java" />
-      <change beforePath="$PROJECT_DIR$/flink-start/src/main/java/batch/WordCountPOJO.java" afterPath="$PROJECT_DIR$/flink-start/src/main/java/batch/WordCountPOJO.java" />
-      <change beforePath="$PROJECT_DIR$/flink-start/src/main/java/window/CountWindowTest2.java" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/CountWindowTest2.java" />
-      <change beforePath="$PROJECT_DIR$/flink-start/src/main/java/window/TimeWiondowTest.java" afterPath="$PROJECT_DIR$/flink-start/src/main/java/window/TimeWiondowTest.java" />
-      <change beforePath="$PROJECT_DIR$/learning.iml" afterPath="$PROJECT_DIR$/learning.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="e305d054-183c-4c9b-b079-3b9599d4d078" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/flink-start/target/" />
@@ -198,7 +21,7 @@
       <file leaf-file-name="ReadeFile2Mysql.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flink-start/src/main/java/JDBC/ReadeFile2Mysql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
+            <state relative-caret-position="0">
               <caret line="82" column="21" lean-forward="false" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -253,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/learningjava/src/main/java/yanghuadong/LinkListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-374">
-              <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+              <caret line="187" column="5" lean-forward="false" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3978#3979#0" expanded="true" />
@@ -268,8 +91,8 @@
       <file leaf-file-name="LinkListTestTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learningjava/src/test/java/yanghuadong/LinkListTestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="93" column="4" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
+            <state relative-caret-position="355">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -335,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flink-start/src/main/java/window/function/Tokenizer.java" />
         <option value="$PROJECT_DIR$/flink-start/src/main/java/window/function/RejectElementMapFunction.java" />
         <option value="$PROJECT_DIR$/flink-start/src/main/java/window/SlideOutTest.java" />
         <option value="$PROJECT_DIR$/flink-start/src/main/java/iterator/IteratorExample.java" />
@@ -386,6 +208,7 @@
         <option value="$PROJECT_DIR$/learningjava/src/main/java/yanghuadong/StringParseToInteger.java" />
         <option value="$PROJECT_DIR$/learningjava/src/test/java/yanghuadong/LinkListTestTest.java" />
         <option value="$PROJECT_DIR$/learningjava/src/main/java/yanghuadong/LinkListTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -437,7 +260,30 @@
             <path>
               <item name="learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="learning-log" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="learning-userbehavior" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="learning-userbehavior" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="learning-userbehavior" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="learningjava" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -456,6 +302,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -800,7 +647,7 @@
       <workItem from="1563843901677" duration="2571000" />
       <workItem from="1565227289733" duration="39291000" />
       <workItem from="1565571253291" duration="10231000" />
-      <workItem from="1565600564317" duration="23519000" />
+      <workItem from="1565600564317" duration="24496000" />
     </task>
     <task id="LOCAL-00001" summary="时间窗口的测试">
       <created>1560937939051</created>
@@ -914,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565688702443</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="新的学习代码">
+      <created>1565748591349</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1565748591349</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -950,7 +804,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203260000" />
+    <option name="totallyTimeSpent" value="204237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -961,12 +815,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.3609914" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6690059" sideWeight="0.3609914" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34385964" sideWeight="0.49030173" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49568966" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.63900864" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35906434" sideWeight="0.63900864" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23976293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1039,7 +893,8 @@
     <MESSAGE value="聚类算法" />
     <MESSAGE value="使用flink-jdbc模块，读取file写到mysql" />
     <MESSAGE value="链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表" />
+    <MESSAGE value="新的学习代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新的学习代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,13 +993,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.7.2/flink-java-1.7.2-sources.jar!/org/apache/flink/api/java/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="700" column="63" lean-forward="true" selection-start-line="700" selection-start-column="63" selection-end-line="700" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.7.2/flink-java-1.7.2-sources.jar!/org/apache/flink/api/java/operators/UnsortedGrouping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1357,7 +1205,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-start/src/main/java/JDBC/ReadeFile2Mysql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
+        <state relative-caret-position="0">
           <caret line="82" column="21" lean-forward="false" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1437,7 +1285,7 @@
     <entry file="file://$PROJECT_DIR$/learningjava/src/main/java/yanghuadong/LinkListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-374">
-          <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+          <caret line="187" column="5" lean-forward="false" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3978#3979#0" expanded="true" />
@@ -1448,10 +1296,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learningjava/src/test/java/yanghuadong/LinkListTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="93" column="4" lean-forward="true" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="4" />
+        <state relative-caret-position="355">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
