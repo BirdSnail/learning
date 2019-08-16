@@ -8,8 +8,8 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /**
- * timer是histogram与meter的结合，histogram统计每次调用的耗时形成直方图的数据，meter统计调用次数形成tps、最近1、5、15分钟调用速度
- * 等数据。
+ * timer是histogram与meter的结合，histogram统计每次调用的耗时形成直方图的数据，
+ * meter统计调用次数形成tps、最近1、5、15分钟调用速度等数据。
  * @author: Mr.Yang
  * @create: 2019-08-16
  */
