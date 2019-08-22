@@ -39,7 +39,7 @@ public class RuleMatch {
 
 	// 存放符合规则的元素
 	private final static MapStateDescriptor<String, List<Ball>> resultMapStateDescriptor = new MapStateDescriptor<>(
-			"ruleMapStateDescriptor",
+			"resultMapStateDescriptor",
 			BasicTypeInfo.STRING_TYPE_INFO,
 			new ListTypeInfo<>(Ball.class));
 
