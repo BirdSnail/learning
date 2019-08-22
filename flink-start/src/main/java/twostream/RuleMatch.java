@@ -37,7 +37,7 @@ public class RuleMatch {
 			BasicTypeInfo.STRING_TYPE_INFO,
 			TypeInformation.of(Rule.class));
 
-	// 存放符合规则的结果
+	// 存放符合规则的元素
 	private final static MapStateDescriptor<String, List<Ball>> resultMapStateDescriptor = new MapStateDescriptor<>(
 			"ruleMapStateDescriptor",
 			BasicTypeInfo.STRING_TYPE_INFO,
@@ -71,10 +71,10 @@ public class RuleMatch {
 		private String ruleName;
 		private String[] rule = new String[2];
 
-		public Rule(String ruleName, String firstShapeValue, String secondShapeValue) {
+		public Rule(String ruleName, String firstShape, String secondShape) {
 			this.ruleName = ruleName;
-			this.rule[0] = firstShapeValue;
-			this.rule[1] = secondShapeValue;
+			this.rule[0] = firstShape;
+			this.rule[1] = secondShape;
 		}
 	}
 
