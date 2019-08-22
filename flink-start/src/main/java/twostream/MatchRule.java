@@ -30,7 +30,7 @@ import java.util.Map;
  * @author: Mr.Yang
  * @create: 2019-08-22
  */
-public class RuleMatch {
+public class MatchRule {
 
 	private final static MapStateDescriptor<String, Rule> ruleMapStateDescriptor = new MapStateDescriptor<>(
 			"ruleMapStateDescriptor",
