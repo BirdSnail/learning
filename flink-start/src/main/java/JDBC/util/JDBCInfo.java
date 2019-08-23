@@ -13,6 +13,7 @@ public class JDBCInfo {
 	public static final String DRIVER_NAME = "com.mysql.jdbc.Driver";
 	public static final String URL = "jdbc:mysql://bear:3306/testdata?useUnicode=true&characterEncoding=utf8";
 	public static final String SELECT_ALL_OF_PARAMETER = "select * from testdata.goods t where t.goodsName = ?";
+	public static final String SELECT_PRICE = "SELECT sellingPrice FROM testdata.goods WHERE goodsName = ?";
 	public static final RowTypeInfo TYPES =
 			new RowTypeInfo(BasicTypeInfo.INT_TYPE_INFO,
 					BasicTypeInfo.STRING_TYPE_INFO,
