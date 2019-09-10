@@ -8,3 +8,5 @@ traffic=$Func{intRand(10000)}
 
 color=yellow|||white|||green
 shape=triangle|||rectangle|||circle
+
+phoneName=apple|||小米|||华为|||applex|||apple1|||apple2|||apple3|||apple4

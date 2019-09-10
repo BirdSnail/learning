@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flink-start/flink-start.iml" filepath="$PROJECT_DIR$/flink-start/flink-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning.iml" filepath="$PROJECT_DIR$/learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/learningjava/learning-java.iml" filepath="$PROJECT_DIR$/learningjava/learning-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-flinktable/learning-flinktable.iml" filepath="$PROJECT_DIR$/learning-flinktable/learning-flinktable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-java/learning-java.iml" filepath="$PROJECT_DIR$/learning-java/learning-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning-log/learning-log.iml" filepath="$PROJECT_DIR$/learning-log/learning-log.iml" />
     </modules>
   </component>

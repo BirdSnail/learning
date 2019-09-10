@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flink-start" />
         <module name="flinkstart" />
+        <module name="learning-flinktable" />
         <module name="learning-java" />
         <module name="learning-log" />
         <module name="learningjava" />
@@ -18,6 +19,8 @@
     <bytecodeTargetLevel>
       <module name="flink-start" target="1.8" />
       <module name="learning" target="1.8" />
+      <module name="learning-concurrent" target="1.8" />
+      <module name="learning-flinktable" target="1.8" />
       <module name="learning-java" target="1.8" />
       <module name="learning-log" target="1.8" />
       <module name="learningjava" target="1.8" />
