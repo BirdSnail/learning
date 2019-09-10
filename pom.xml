@@ -11,10 +11,9 @@
     <modules>
         <module>learning-log</module>
         <module>flink-start</module>
-        <module>learningjava</module>
+        <module>learning-java</module>
         <module>learning-userbehavior</module>
         <module>learning-flinktable</module>
-        <module>learning-concurrent</module>
     </modules>
 
     <properties>
