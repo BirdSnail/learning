@@ -1,4 +1,4 @@
-package yanghuadong.singleton;
+package training.yanghuadong.singleton;
 
 /**
  * 静态内部类：

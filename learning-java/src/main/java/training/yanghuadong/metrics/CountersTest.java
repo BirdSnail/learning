@@ -1,4 +1,4 @@
-package yanghuadong.metrics;
+package training.yanghuadong.metrics;
 
 import com.codahale.metrics.ConsoleReporter;
 import com.codahale.metrics.Counter;

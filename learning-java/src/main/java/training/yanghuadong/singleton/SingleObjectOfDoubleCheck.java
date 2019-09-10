@@ -1,4 +1,4 @@
-package yanghuadong.singleton;
+package training.yanghuadong.singleton;
 
 /**
  * 双重检验锁：

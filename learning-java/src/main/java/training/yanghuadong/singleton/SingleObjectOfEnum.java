@@ -1,4 +1,4 @@
-package yanghuadong.singleton;
+package training.yanghuadong.singleton;
 
 /**
  * 枚举法

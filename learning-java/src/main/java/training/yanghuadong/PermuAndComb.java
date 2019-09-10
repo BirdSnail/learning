@@ -1,4 +1,4 @@
-package yanghuadong;
+package training.yanghuadong;
 
 import java.util.Arrays;
 

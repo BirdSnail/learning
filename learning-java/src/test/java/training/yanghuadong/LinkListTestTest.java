@@ -1,8 +1,8 @@
-package yanghuadong;
+package training.yanghuadong;
 
 import org.junit.Before;
 import org.junit.Test;
-import yanghuadong.LinkListTest.*;
+import training.yanghuadong.LinkListTest.*;
 
 
 import static org.junit.Assert.*;

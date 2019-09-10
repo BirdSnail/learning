@@ -1,4 +1,4 @@
-package yanghuadong;
+package training.yanghuadong;
 
 /**
  * 将字符串解析成整数
