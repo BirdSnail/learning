@@ -1,4 +1,4 @@
-package com.github.effective.java.training;
+package com.github.effective.java.training.builderpattern;
 
 /**
  * Builder模式
