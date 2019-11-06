@@ -30,7 +30,7 @@
 
         </dependency>
 
-        <!-- These dependencies are provided, because they should not be packaged into the JAR file. -->
+        <!-- These dependencies are provided, because they should not be packaged into the JARfile. -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-java</artifactId>
@@ -39,21 +39,15 @@
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
+            <artifactId>flink-streaming-java_2.11</artifactId>
             <version>${flink.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-clients_2.11</artifactId>
-            <version>1.7.2</version>
+            <version>${flink.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-core</artifactId>
-            <version>1.7.2</version>
-        </dependency>
-
 
     </dependencies>
 

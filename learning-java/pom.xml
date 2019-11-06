@@ -33,7 +33,6 @@
             <artifactId>metrics-core</artifactId>
             <version>4.0.2</version>
         </dependency>
-
     </dependencies>
 
     <build>
