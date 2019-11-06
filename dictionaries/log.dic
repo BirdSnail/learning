@@ -5,3 +5,8 @@ time=$Func{timestamp()}
 ip=223.104.18.110|||113.101.75.194|||27.17.127.135|||183.225.139.16|||112.1.66.34|||175.148.211.190|||183.227.58.21
 domain=v1.go2yd.com|||v2.go2yd.com|||v3.go2yd.com|||v4.go2yd.com|||v5.go2yd.com
 traffic=$Func{intRand(10000)}
+
+color=yellow|||white|||green
+shape=triangle|||rectangle|||circle
+
+phoneName=apple|||小米|||华为|||applex|||apple1|||apple2|||apple3|||apple4

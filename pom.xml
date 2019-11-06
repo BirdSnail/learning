@@ -11,13 +11,17 @@
     <modules>
         <module>learning-log</module>
         <module>flink-start</module>
-        <module>learningjava</module>
+        <module>learning-java</module>
         <module>learning-userbehavior</module>
+        <module>learning-flinktable</module>
     </modules>
 
     <properties>
         <slf4j-version>1.7.25</slf4j-version>
         <java-version>1.8</java-version>
+        <flink.version>1.9.0</flink.version>
+        <scala.binary.version>2.12</scala.binary.version>
+        <kafka.version>2.0.0</kafka.version>
     </properties>
 
     <dependencyManagement>
@@ -55,12 +59,20 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.0</version>
+            <version>1.18.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
