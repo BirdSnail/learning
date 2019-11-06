@@ -3,4 +3,4 @@
 #忽略class文件
 *.class
 *.jar
-*.loggit
+*.log
