@@ -1,6 +1,5 @@
-package training.yanghuadong;
+package training.yanghuadong.sort;
 
-import java.security.PrivateKey;
 import java.util.Arrays;
 
 /**
@@ -25,7 +24,9 @@ public class SortTest {
 	}
 
 
-	/**冒泡排序*/
+	/**
+	 * 冒泡排序
+	 */
 	public static void bubbleSort(int[] array) {
 		int counter = 0;
 
@@ -44,7 +45,9 @@ public class SortTest {
 		printUsge(array, counter);
 	}
 
-	/**选择排序*/
+	/**
+	 * 选择排序
+	 */
 	public static void selectSort(int[] array) {
 		int counter = 0;
 
@@ -63,7 +66,9 @@ public class SortTest {
 		printUsge(array, counter);
 	}
 
-	/**插入排序*/
+	/**
+	 * 插入排序
+	 */
 	public static void insertSort(int[] array) {
 		int counter = 0;
 
@@ -91,7 +96,9 @@ public class SortTest {
 		printUsge(array, counter);
 	}
 
-	/**归并排序*/
+	/**
+	 * 归并排序
+	 */
 	public static void mergeSort(int[] array) {
 		mergeSort(array, 0, array.length - 1);
 		printUsge(array);
@@ -101,12 +108,14 @@ public class SortTest {
 		if (start < end) {
 			int mid = (start + end) / 2;
 			mergeSort(array, start, mid);
-			mergeSort(array, mid+1, end);
+			mergeSort(array, mid + 1, end);
 			merge(array, start, mid, end);
 		}
 	}
 
-	/**快速排序*/
+	/**
+	 * 快速排序
+	 */
 	public static void quackSort(int[] array) {
 		quackSort(array, 0, array.length - 1);
 		printUsge(array);
@@ -141,42 +150,50 @@ public class SortTest {
 			array[left] = array[i];
 			array[i] = key;
 
-			quackSort(array, left, i-1);
-			quackSort(array, i+1, right);
+			quackSort(array, left, i - 1);
+			quackSort(array, i + 1, right);
 		}
 	}
 
-	/**推排序*/
+	/**
+	 * 推排序
+	 */
 	public static void heapSort(int[] array) {
+		// 构建一个大顶堆
 		int first = array.length / 2 - 1;
-
 		for (int i = first; i >= 0; i--) {
-			createMaxHeap(array, array.length -1, i);
+			Heapify(array, array.length - 1, i);
 		}
 
 		// 大根推转换成有序数组
-		for (int i = array.length -1; i >0 ; i--) {
+		for (int i = array.length - 1; i > 0; i--) {
 			int temp = array[i];
 			array[i] = array[0];
 			array[0] = temp;
 
-			createMaxHeap(array, i-1, 0);
+			Heapify(array, i - 1, 0);
 		}
 
 		printUsge(array);
 	}
 
 	/**
-	 * 创建一个最大推
-	 * @param array
+	 * 保持非叶子节点是最大值
+	 * 		max
+	 * 		/ \
+	 * 	   a   b
+	 * 基础知识：
+	 * 	1. 在二叉树中，一个下标为i的节点它的左子节点下标 (2*i + 1),右子节点：(2*i +2)
+	 *
+	 * @param array 数组
 	 * @param maxIndex 推的边界
-	 * @param postion 当前节点位置
+	 * @param position  当前节点位置
 	 */
-	private static void createMaxHeap(int[] array, int maxIndex, int postion) {
+	private static void Heapify(int[] array, int maxIndex, int position) {
 
 		while (true) {
 			// 子节点索引
-			int child = 2 * postion + 1;
+			int child = 2 * position + 1;
 
 			if (child > maxIndex) {
 				break;
@@ -188,12 +205,12 @@ public class SortTest {
 			}
 
 			// 交换父子节点值，较大的子节点成为父节点
-			if (array[child] > array[postion]) {
-				int temp = array[postion];
-				array[postion] = array[child];
+			if (array[child] > array[position]) {
+				int temp = array[position];
+				array[position] = array[child];
 				array[child] = temp;
 
-				postion = child;
+				position = child;
 			} else {
 				break;
 			}
@@ -205,7 +222,7 @@ public class SortTest {
 		int[] result = new int[right - left + 1];
 
 		int l_start = left;
-		int r_start = mid +1;
+		int r_start = mid + 1;
 
 		// 将left到right这中间的部分排序
 		for (int index = 0; index < result.length; index++) {
@@ -217,8 +234,7 @@ public class SortTest {
 					result[index] = origin[r_start];
 					r_start++;
 				}
-			}
-			else if (l_start > mid){
+			} else if (l_start > mid) {
 				result[index] = origin[r_start];
 				r_start++;
 			} else if (r_start > right) {
@@ -232,7 +248,10 @@ public class SortTest {
 			origin[left + i] = result[i];
 		}
 	}
-	/**合并连个有序的数组*/
+
+	/**
+	 * 合并连个有序的数组
+	 */
 	private static int[] mergeOfTwoArray(int[] left, int[] right) {
 		int[] result = new int[left.length + right.length];
 
